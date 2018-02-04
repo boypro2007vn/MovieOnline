@@ -1,0 +1,15 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:17
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:14.470989,
+txrgs_rjxvu_2.0_Japanese_12_7200.ts
+#EXTINF:8.341667,
+txrgs_rjxvu_2.0_Japanese_12_7201.ts
+#EXTINF:8.341667,
+txrgs_rjxvu_2.0_Japanese_12_7202.ts
+#EXTINF:16.683333,
+txrgs_rjxvu_2.0_Japanese_12_7203.ts
+#EXTINF:2.202200,
+txrgs_rjxvu_2.0_Japanese_12_7204.ts
+#EXT-X-ENDLIST
