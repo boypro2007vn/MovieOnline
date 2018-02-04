@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+    <ejb-local-ref>
+        <ejb-ref-name>CountryFacade</ejb-ref-name>
+        <ejb-ref-type>Session</ejb-ref-type>
+        <local>bean.CountryFacadeLocal</local>
+        <ejb-link>MovieOnline-ejb.jar#CountryFacade</ejb-link>
+    </ejb-local-ref>
+    <ejb-local-ref>
+        <ejb-ref-name>GenreFacade</ejb-ref-name>
+        <ejb-ref-type>Session</ejb-ref-type>
+        <local>bean.GenreFacadeLocal</local>
+        <ejb-link>MovieOnline-ejb.jar#GenreFacade</ejb-link>
+    </ejb-local-ref>
+    <ejb-local-ref>
+        <ejb-ref-name>AccountsFacade</ejb-ref-name>
+        <ejb-ref-type>Session</ejb-ref-type>
+        <local>bean.AccountsFacadeLocal</local>
+        <ejb-link>MovieOnline-ejb.jar#AccountsFacade</ejb-link>
+    </ejb-local-ref>
+    <ejb-local-ref>
+        <ejb-ref-name>AccountsFacade1</ejb-ref-name>
+        <ejb-ref-type>Session</ejb-ref-type>
+        <local>bean.AccountsFacadeLocal</local>
+        <ejb-link>MovieOnline-ejb.jar#AccountsFacade</ejb-link>
+    </ejb-local-ref>
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>

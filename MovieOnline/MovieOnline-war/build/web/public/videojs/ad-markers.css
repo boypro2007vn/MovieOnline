@@ -1,0 +1,55 @@
+.vjs-admarker {
+    position: absolute;
+    left: 0;
+    top: 1.3em;
+    opacity: 1;
+    height: 4px;
+    width: 7px;
+    background-color: red;
+    transition: opacity .2s ease;
+    -webkit-transition: opacity .2s ease;
+    -moz-transition: opacity .2s ease;
+}
+
+
+.vjs-admarker-announcer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    height: 5px;
+    width: 7px;
+    background-color: yellow;
+    transition: opacity .2s ease;
+    -webkit-transition: opacity .2s ease;
+    -moz-transition: opacity .2s ease;
+}
+
+#ads-container .vjs-play-progress{
+    background-color: #ffe400;
+}
+#ads-container .vjs-progress-control{
+    pointer-events: none;  
+}
+
+.preroll-skip-button, .remaining-time {
+  display: block;
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  width: auto;
+  background-color: rgba(0,0,0,.5);
+  color: #aaa;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 12px;
+  padding: 10px;
+  z-index: 2;
+  border: 1px solid rgba(255,255,255,.35);
+  border-right: none;
+}
+
+.preroll-skip-button.enabled {
+  cursor: pointer;
+  color: #ffe400;
+}

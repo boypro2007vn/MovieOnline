@@ -1,0 +1,1 @@
+[{"time":0,"ad":"moviesSource/ads/ads-video.MP4","duration":30},{"time":20,"ad":"moviesSource/ads/ads-video.MP4","duration":30}]

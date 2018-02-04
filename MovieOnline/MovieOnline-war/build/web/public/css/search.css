@@ -1,0 +1,19 @@
+.list-movie-filter{
+    padding: 10px 0px;
+    border: 1px solid #121212;
+    background-color: #222;
+}
+
+.list-movie-filter .list-movie-filter-item {
+    float: left;
+    margin: 0px 20px;
+    width: 140px;    
+}
+
+.title-filter{
+    color: orange;
+    display: inline-block;
+    font: 15px 'UTMCafetaRegular';
+    text-transform: uppercase;
+    margin-top: 10px; 
+}

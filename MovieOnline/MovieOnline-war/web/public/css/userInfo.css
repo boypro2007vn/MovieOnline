@@ -1,0 +1,151 @@
+/* 
+    Created on : Oct 28, 2017, 11:37:26 AM
+    Author     : DUNG KHI
+*/
+
+/*-------------------------INFO-------------------------------*/
+
+/*.info-container{
+    margin-top: 25%;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+}*/
+.info-panel{
+    padding:50px;
+}
+
+.body-contain {
+    background:url(../images/item_bg.gif) repeat;
+    height: 500px;
+    max-height: 500px;
+    padding-top:10px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.info{
+    display: block;
+
+    /*    text-justify: */
+}
+
+
+#info-avatar{
+    display: block;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    margin:auto;
+}
+
+#account-name{
+    color:white;
+}
+#VIP-account{
+    font-weight: bold;
+    font-style: italic;
+    color:#d58512;
+}
+
+#buyVIP{
+    padding: 12px 28px;
+    color:whitesmoke;
+    background-color: #d58512;
+    font-size: 18px;
+}
+
+.short-info{
+    display:block;
+    margin: 5px;
+    padding: 15px 0px;
+    text-align: center;
+    background: #6f6d72 url(../images/body_bg.gif) repeat;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+div>ul{
+    list-style-type:none;
+}
+
+.col3-content .option{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 0px;
+}
+
+.member-avatar{
+    padding: 15px 0px;
+}
+
+.form-group{
+    text-align: left;
+}
+
+.option>ul>li:active{
+    width:100%;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.option>ul>li:focus{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.option>ul>li>a{
+    color: #bbb;
+    text-decoration: none;
+    background-color: transparent;
+}
+.option>ul>li>a>i{
+    padding-right: 10px;
+}
+
+#mall-his:hover,#personal-info:hover{
+    color: #fff;
+}
+
+.form-info{
+    padding: 10px;
+}
+.form-label{
+    color:white;
+    font-family:  inherit;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+.info-label label{
+    text-align: center;
+  font-size: 1.8em;
+}
+.detail-info input[type=text]{
+    height: 30px;
+  font-size: 16px;
+  //width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.detail-info div{
+    display:inline;
+}
+
+/*   chi tiết THÔNG TIN THÀNH VIÊN    */
+
+#title{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.form-horizontal fieldset div label{
+  color: white;
+}

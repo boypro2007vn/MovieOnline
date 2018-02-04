@@ -1,0 +1,317 @@
+.grid-item {
+    min-width: 210px;
+    margin-bottom: 30px;
+    background-image: url("../images/texture.png");
+    background-repeat: repeat;
+    
+}
+.grid-item:hover{
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,235,231,1);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,235,231,1);
+    box-shadow: 0px 0px 2px 1px rgba(0,235,231,1);
+}
+.col-md-15 {
+    float: left;
+    width: 20%;
+    margin-bottom: 30px;
+}
+.entry-item {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.entry-item:hover .open-left {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.entry-item >div >img{
+   -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.7s;
+}
+.entry-item:hover >div >img{
+    -moz-transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    transform: scale(1.7);
+}
+article {
+    display: block;
+}
+.entry-thumb {
+    border-bottom: 3px solid #fe7900;
+    position: relative;
+}
+.right-info {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.moviePoster {
+    max-width: 100%;
+    height: 23em;
+    vertical-align: middle;
+    border: 0;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.right-info {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    text-align: right;
+}
+.pg {
+    background: #fe7900;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.entry-time {
+    color: #000000;
+    display: block;
+    max-height: 123px;
+    overflow: hidden;
+}
+.follow{
+    margin-top: 15px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center
+}
+.follow > a{
+    font-size: 1.0em;
+    
+}
+.follow > a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.rate {
+    background: rgba(204, 204, 204, 0.65) none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #000000;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 65px;
+    left: 50%;
+    line-height: 60px;
+    margin-left: -32.25px;
+    margin-top: -32.25px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 65px;
+}
+.entry-content {
+    height: 85px;
+    padding: 7px 5px;
+    font-size: 13px;
+    color: #999;
+}
+.tab-list-row{
+    margin-top: 20px;
+}
+h4.entry-title {
+    margin: 5px;
+}
+.entry-date {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.open-left {
+    left: 0;
+    top: 0;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.pic-caption {
+    background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+    color: #fff;
+    cursor: default;
+    height: 100%;
+    opacity: 0;
+    padding: 20px 15px;
+    position: absolute;
+    text-align: left;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    z-index: 2;
+}
+.entry-title {
+    margin: 0px 0 10px;
+    text-transform: uppercase;
+    //overflow: hidden;
+    font-size: 15px;
+    font-weight: bold;
+    color: cyan;
+    display: -webkit-box;  // needed for the effect to cut off
+    -webkit-line-clamp: 2;  // line to cut off
+    -webkit-box-orient: vertical;
+}
+.pic-caption .pg {
+    background: #fe7900 none repeat scroll 0 0;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.desc-mv {
+    margin-bottom: 20px;
+}
+.pic-caption .rate {
+    background: #fe7900 none repeat scroll 0 0;
+    border: 3px solid #fff;
+    color: #ffffff;
+    line-height: 62px;
+    margin: 0 auto;
+    position: static;
+    display: block;
+}
+.pic-caption .entry-button {
+    bottom: 20px;
+    left: 15px;
+    position: absolute;
+}
+/*.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}*/
+.space-float-div{
+    margin: 8px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.w3-button{
+    border:none;
+    display:inline-block;
+    outline:0;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+}
+.w3-button.w3-display-left{
+    position:absolute;
+    top:50%;
+    left:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%);
+}
+.w3-button.w3-display-right{
+    position:absolute;
+    top:50%;
+    right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%);
+}
+.w3-center{
+    text-align:center;
+}
+.w3-content{
+    width: 95%;
+    margin:auto;
+}
+.w3-display-container{
+    position:relative;
+
+}
+.banner-image{
+    width: 100%;
+    height: 350px;
+}
+.content-title{
+
+    overflow: hidden;
+    white-space: nowrap;
+    background: url(../img/divider_line.gif) bottom repeat-x;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.more-list-index {
+    float: right;
+    display: inline-block;
+    padding: 15px 12px 0px 0px;
+    color: #ddd;
+    font-size: 14px;
+    text-decoration: none;
+    background: url(../img/viewmore.png) no-repeat right 21px;
+}
+.title-list-index {
+    color: orange;
+    text-shadow: 1px 1px 1px #1a1a1a;
+    display: inline-block;
+    font: 20px 'UTMCafetaRegular';
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.w3-white{
+    color: #000!important;
+    background-color: #fff!important;
+}
+.w3-transparent{
+    background-color: transparent!important;
+}
+.w3-border {
+    border: 1px solid #ccc!important;
+}
+
+.col-half-offset{
+    margin-left:4.166666667%
+}
+#Romantic,
+#Family,
+#Action,
+#Comedy{
+    display:none;
+}
+.select-box{
+    margin-left: 10px;
+}
+.category-text{
+    background: none;
+    margin: 12px 15px 0 0;
+    font-size: 15px;
+    color: inherit;
+    border: none;
+    padding: 0px;
+}
+
+.tcb-product-slider .carousel-control {
+  width: 5%;
+}
